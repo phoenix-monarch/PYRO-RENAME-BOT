@@ -39,13 +39,13 @@ async def start(client, message):
         await db.add_user(user.id)             
     txt=f"👋 Hai {user.mention} \nɪ'ᴍ ᴀ sɪᴍᴘʟᴇ ғɪʟᴇ ʀᴇɴᴀᴍᴇ ғɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ ᴄᴏɴᴠᴇʀᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ ᴀɴᴅ ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ sᴜᴘᴘᴏʀᴛ !"
     button=InlineKeyboardMarkup([[
-        InlineKeyboardButton("╰─➩ᴄʜᴀɴɴᴇʟs", callback_data='dev')
+        InlineKeyboardButton("••• ᴄʜᴀɴɴᴇʟs •••", callback_data='dev')
         ],[
-        InlineKeyboardButton('╰─➩ ɴᴇᴛᴡᴏʀᴋ', url='https://t.me/psycho_association'),
-        InlineKeyboardButton('╰─➩ sᴜᴘᴘᴏʀᴛ', url='https://t.me/devils_chats')
+        InlineKeyboardButton('••• ɴᴇᴛᴡᴏʀᴋ •••', url='https://t.me/psycho_association'),
+        InlineKeyboardButton('••• sᴜᴘᴘᴏʀᴛ •••', url='https://t.me/devils_chats')
         ],[
-        InlineKeyboardButton('╰─➩ᴀʙᴏᴜᴛ ', callback_data='about'),
-        InlineKeyboardButton('╰─➩ʜᴇʟᴘ', callback_data='help')
+        InlineKeyboardButton('••• ᴀʙᴏᴜᴛ •••', callback_data='about'),
+        InlineKeyboardButton('••• ʜᴇʟᴘ •••', callback_data='help')
         ]])
     if START_PIC:
         await message.reply_photo(START_PIC, caption=txt, reply_markup=button)       
@@ -81,13 +81,13 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=f"""👋 Hai {query.from_user.mention} \nɪ'ᴍ ᴀ sɪᴍᴘʟᴇ ғɪʟᴇ ʀᴇɴᴀᴍᴇ ғɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ ᴄᴏɴᴠᴇʀᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ ᴀɴᴅ ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ sᴜᴘᴘᴏʀᴛ ! """,
             reply_markup=InlineKeyboardMarkup( [[
-                InlineKeyboardButton("╰─➩ᴄʜᴀɴɴᴇʟs", callback_data='dev')                
+                InlineKeyboardButton("••• ᴄʜᴀɴɴᴇʟs •••", callback_data='dev')                
                 ],[
-                InlineKeyboardButton('╰─➩ ɴᴇᴛᴡᴏʀᴋ', url='https://t.me/psycho_association'),
-                InlineKeyboardButton('╰─➩ sᴜᴘᴘᴏʀᴛ', url='https://t.me/devils_chats')
+                InlineKeyboardButton('••• ɴᴇᴛᴡᴏʀᴋ •••', url='https://t.me/psycho_association'),
+                InlineKeyboardButton('••• sᴜᴘᴘᴏʀᴛ •••', url='https://t.me/devils_chats')
                 ],[
-                InlineKeyboardButton('─➩ ᴀʙᴏᴜᴛ', callback_data='about'),
-                InlineKeyboardButton('─➩ ʜᴇʟᴘ', callback_data='help')
+                InlineKeyboardButton('••• ᴀʙᴏᴜᴛ •••', callback_data='about'),
+                InlineKeyboardButton('••• ʜᴇʟᴘ •••', callback_data='help')
                 ]]
                 )
             )
@@ -96,9 +96,9 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton(" sᴏᴜʀᴄᴇ ", url="https://t.me/psycho_association")
+               InlineKeyboardButton("••• sᴏᴜʀᴄᴇ •••", url="https://t.me/psycho_association")
                ],[
-               InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴍᴀᴋᴇ ", url='https://t.me/psycho_association')
+               InlineKeyboardButton("•••ʜᴏᴡ ᴛᴏ ᴍᴀᴋᴇ •••", url='https://t.me/psycho_association')
                ],[
                InlineKeyboardButton("🔒 ᴄʟᴏsᴇ", callback_data = "close"),
                InlineKeyboardButton("◀️ ʙᴀᴄᴋ", callback_data = "start")
@@ -111,9 +111,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("sᴏᴜʀᴄᴇ", url="https://t.me/psycho_association")
+               InlineKeyboardButton("••• sᴏᴜʀᴄᴇ •••", url="https://t.me/psycho_association")
                ],[
-               InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴍᴀᴋᴇ", url="https://t.me/psycho_association")
+               InlineKeyboardButton("••• ʜᴏᴡ ᴛᴏ ᴍᴀᴋᴇ •••", url="https://t.me/psycho_association")
                ],[
                InlineKeyboardButton("🔒 ᴄʟᴏsᴇ", callback_data = "close"),
                InlineKeyboardButton("◀️ ʙᴀᴄᴋ", callback_data = "start")
@@ -125,9 +125,9 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.DEV_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("sᴏᴜʀᴄᴇ", url="https://t.me/psycho_association")
+               InlineKeyboardButton("••• sᴏᴜʀᴄᴇ •••", url="https://t.me/psycho_association")
                ],[
-               InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴍᴀᴋᴇ", url="https://t.me/psycho_association")
+               InlineKeyboardButton("••• ʜᴏᴡ ᴛᴏ ᴍᴀᴋᴇ •••", url="https://t.me/psycho_association")
                ],[
                InlineKeyboardButton("🔒 ᴄʟᴏsᴇ", callback_data = "close"),
                InlineKeyboardButton("◀️ ʙᴀᴄᴋ", callback_data = "start")
