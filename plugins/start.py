@@ -96,9 +96,9 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("••• sᴏᴜʀᴄᴇ •••", url="https://t.me/psycho_association")
+               InlineKeyboardButton("••• ᴄʜᴀᴛ ɢʀᴏᴜᴘ •••", url="https://t.me/animee_discussion")
                ],[
-               InlineKeyboardButton("•••ʜᴏᴡ ᴛᴏ ᴍᴀᴋᴇ •••", url='https://t.me/psycho_association')
+               InlineKeyboardButton("••• ᴀʙᴏᴜᴛ ᴍʏ ᴏᴡɴᴇʀ •••", url='https://t.me/+U6UmCs3STUVlMGU1')
                ],[
                InlineKeyboardButton("🔒 ᴄʟᴏsᴇ", callback_data = "close"),
                InlineKeyboardButton("◀️ ʙᴀᴄᴋ", callback_data = "start")
@@ -111,9 +111,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("••• sᴏᴜʀᴄᴇ •••", url="https://t.me/psycho_association")
+               InlineKeyboardButton("••• ᴄʜᴀᴛ ɢʀᴏᴜᴘ •••", url="https://t.me/animee_discussion")
                ],[
-               InlineKeyboardButton("••• ʜᴏᴡ ᴛᴏ ᴍᴀᴋᴇ •••", url="https://t.me/psycho_association")
+               InlineKeyboardButton("••• ᴀʙᴏᴜᴛ ᴍʏ ᴏᴡɴᴇʀ •••", url="https://t.me/+U6UmCs3STUVlMGU1")
                ],[
                InlineKeyboardButton("🔒 ᴄʟᴏsᴇ", callback_data = "close"),
                InlineKeyboardButton("◀️ ʙᴀᴄᴋ", callback_data = "start")
@@ -125,9 +125,9 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.DEV_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("••• sᴏᴜʀᴄᴇ •••", url="https://t.me/psycho_association")
+               InlineKeyboardButton("••• ᴄʜᴀᴛ ɢʀᴏᴜᴘ •••", url="https://t.me/animee_discussion")
                ],[
-               InlineKeyboardButton("••• ʜᴏᴡ ᴛᴏ ᴍᴀᴋᴇ •••", url="https://t.me/psycho_association")
+               InlineKeyboardButton("••• ᴀʙᴏᴜᴛ ᴍʏ ᴏᴡɴᴇʀ •••", url="https://t.me/+U6UmCs3STUVlMGU1")
                ],[
                InlineKeyboardButton("🔒 ᴄʟᴏsᴇ", callback_data = "close"),
                InlineKeyboardButton("◀️ ʙᴀᴄᴋ", callback_data = "start")
